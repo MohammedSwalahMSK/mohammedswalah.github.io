@@ -1,0 +1,41 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Mohammed Swalah"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "icon_rf.png"
+secondaryLogo = "icon_rf.png"
+description = "Grow with Nature"
+
+[[params.author.links]]
+email = "mailto:mohammedswalahmsk@gmail.com?subject=Website%20Contact&body=Hi%20Mohammed,"
+
+[[params.author.links]]
+facebook = "https://www.facebook.com/profile.php?id=61551776615388"
+
+[[params.author.links]]
+instagram = "https://www.instagram.com/iam_swalah_"
+
+[[params.author.links]]
+linkedin = "https://www.linkedin.com/mohammedswalah"
+
+[[params.author.links]]
+phone = "tel:+919745503093"
+
+[[params.author.links]]
+x-twitter = "https://x.com/MSK_Swalah"
+
+[[params.author.links]]
+youtube = "https://youtube.com/@mskxplor"
+
+["params.author"]
+name = "Mohammed Swalah"
+headline = "Grow with Nature"
+image = "hero.jpg"
+bio = "**An**  aspiring entrepreneur ***passionate about*** travel, technology, creativity;  **building a meaningful future through real-world experience.**"

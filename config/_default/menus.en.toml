@@ -1,0 +1,57 @@
+[[main]]
+none = "none"
+
+[[main]]
+name = "Projects"
+pre = "lightbulb"
+pageRef = "projects"
+identifier = "fwkW3Fqkwh"
+weight = 3
+
+[[main]]
+name = "Contact Me"
+pre = "email"
+pageRef = "contact"
+identifier = "5sIO4lVtQN"
+weight = 4
+
+[[main]]
+name = "Blog"
+pre = "blogger"
+pageRef = "posts"
+identifier = "mlhLsQUeEk"
+weight = 2
+
+[[main]]
+name = "Who Am I"
+pre = "star"
+pageRef = "about"
+identifier = "nZRG7aG9BU"
+weight = 1
+
+[[footer]]
+none = "none"
+
+[[footer]]
+name = "About"
+pageRef = "about"
+identifier = "QdzrGiHUJl"
+weight = 1
+
+[[footer]]
+name = "Projects"
+pageRef = "projects"
+identifier = "VZcgCm7VeV"
+weight = 2
+
+[[footer]]
+name = "Blog"
+pageRef = "posts"
+identifier = "geMiyM0RtQ"
+weight = 3
+
+[[footer]]
+name = "Contact Me"
+pageRef = "contact"
+identifier = "cnh5M11GTw"
+weight = 4
