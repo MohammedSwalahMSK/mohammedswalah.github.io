@@ -5,7 +5,7 @@ summaryLength = 0
 buildDrafts = false
 buildFuture = false
 enableEmoji = true
-baseURL = "https://mohammedswalah.github.io/"
+baseURL = "https://mohammedswalahmsk.github.io/"
 googleAnalytics = true
 
 [pagination]
