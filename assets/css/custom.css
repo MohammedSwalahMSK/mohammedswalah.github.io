@@ -1,24 +1,112 @@
-/*Improve hero spacing on mobile*/
-@media(max-width:768px){
- .hero{
-   padding-top:2rem;
-   padding-bottom:2rem;
- }
-}
- 
-/*Make mobile hero behave like desktop*/
-@media(max-width:768px){
- .hero{
-	 min-height:100vh;
-	 padding-top:3rem;
-	 padding-bottom:3rem;
- }
- .hero h1
- .hero h2{
-	 font-size:clamp(1.8rem,4vw,2.4rem)
- }
- .hero p{
-	 max-width:90%;
-	 margin-inline:auto;
- }
+/* =====================================================
+   MOBILE-ONLY REFINEMENTS FOR BLOWFISH
+   Affects screens <= 768px ONLY
+   Desktop remains untouched
+   ===================================================== */
+
+@media (max-width: 768px) {
+
+  /* -----------------------------
+     HERO SECTION FIXES
+     ----------------------------- */
+
+  /* Reduce excessive hero height */
+  .hero {
+	position: relative;
+    min-height: auto !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  /* Hide duplicate intro heading ("Hi, I'm ...") */
+  .hero h1 {
+    display: none !important;
+  }
+
+  /* Improve readability over background image */
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 0;
+  }
+
+  .hero * {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Profile image tuning */
+  .hero img {
+    width: 160px !important;
+    height: 160px !important;
+  }
+
+  /* Name & tagline spacing */
+  .hero h2 {
+    margin-top: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .hero p {
+    max-width: 90% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    line-height: 1.6 !important;
+  }
+
+  /* -----------------------------
+     SOCIAL ICONS
+     ----------------------------- */
+
+  .hero .social-icons {
+    transform: scale(0.9);
+    margin-bottom: 1.25rem;
+  }
+
+  /* -----------------------------
+     SECTION SPACING FIXES
+     ----------------------------- */
+
+  /* Prevent section headers from being cut */
+  section {
+    scroll-margin-top: 80px;
+  }
+
+  /* Normalize spacing between sections */
+  .section {
+    margin-top: 2rem !important;
+  }
+
+  /* -----------------------------
+     RECENT / BLOG SECTION
+     ----------------------------- */
+
+  /* Improve card spacing */
+  .card {
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* Center "Show More" button */
+  .pagination,
+  .show-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  /* -----------------------------
+     FOOTER CLEANUP
+     ----------------------------- */
+
+  footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  footer ul {
+    text-align: center;
+  }
+
 }
