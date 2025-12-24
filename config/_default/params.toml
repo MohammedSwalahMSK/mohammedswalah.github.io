@@ -44,8 +44,8 @@ showRecentItems = "1"
 showMoreLink = true
 showMoreLinkDest = "/posts/"
 cardView = false
-cardViewScreenWidth = false
-layoutBackgroundBlur = false
+cardViewScreenWidth = ""
+layoutBackgroundBlur = true
 disableHeroImageFilter = false
 homepageImage = "h1.jpg"
 
@@ -121,6 +121,7 @@ heroStyle = "background"
 [typography]
 fontsize = "base"
 lineHeight = "relaxed"
+mobileFontSize = "base"
 
-[Css]
-customCSS = ["css/custom.css"]
+[params]
+customCSS = [ "css/custom.css" ]

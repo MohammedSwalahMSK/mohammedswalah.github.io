@@ -1,8 +1,24 @@
 /*Improve hero spacing on mobile*/
-@media (max-width:768px){
+@media(max-width:768px){
  .hero{
-	padding-top: 2rem;
-	padding_bottom: 2rem;
-   }
-  }
-  
+   padding-top:2rem;
+   padding-bottom:2rem;
+ }
+}
+ 
+/*Make mobile hero behave like desktop*/
+@media(max-width:768px){
+ .hero{
+	 min-height:100vh;
+	 padding-top:3rem;
+	 padding-bottom:3rem;
+ }
+ .hero h1
+ .hero h2{
+	 font-size:clamp(1.8rem,4vw,2.4rem)
+ }
+ .hero p{
+	 max-width:90%;
+	 margin-inline:auto;
+ }
+}
