@@ -60,13 +60,9 @@
      SOCIAL ICONS
      ----------------------------- */
 
-  .social-icons a {
-	transition: transform 0.2s ease;
+  .hero .social-icons {
     transform: scale(0.9);
     margin-bottom: 1.25rem;
-  }
-  .social-icons a:active {
-	  transform: scale(0.95);
   }
 
   /* -----------------------------
@@ -113,21 +109,4 @@
     text-align: center;
   }
 
- /* -----------------------------
-     Text Size & Spacing
-     ----------------------------- */
-
-	strong {
-		font-weight: 700 !important;
-	}
-	
-	em {
-		font-style: italic !important;
-		opacity: 0.95;
-	}
-	
-	h1, h1, h3 {
-		font-weight: 700;
-		letter-spacing: -0.3px;
-	}
 }
