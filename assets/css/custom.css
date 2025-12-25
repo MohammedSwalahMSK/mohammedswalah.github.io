@@ -110,3 +110,20 @@
   }
 
 }
+
+/*Improve Markdown emphasis on mobile */
+@media (max-width: 768px) {
+	strong {
+		font-weight: 700 !important;
+	}
+	
+	em {
+		font-style: italic !important;
+		opacity: 0.95;
+	}
+	
+	h1, h1, h3 {
+		font-weight: 700;
+		letter-spacing: -0.3px;
+	}
+}
