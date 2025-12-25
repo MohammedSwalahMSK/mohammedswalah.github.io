@@ -14,7 +14,25 @@ secondaryLogo = "icon_rf.png"
 description = "Grow with Nature"
 
 [[params.author.links]]
+email = "mailto:mohammedswalahmsk.work@gmail.com?subject=Contact%20from%20Website&body=Hi%20Mohammed,"
+
+[[params.author.links]]
+facebook = "https://www.facebook.com/iamswalah"
+
+[[params.author.links]]
+github = "https://www.github.com/MohammedSwalahMSK"
+
+[[params.author.links]]
+instagram = "https://www.instagram.com/iam_swalah_"
+
+[[params.author.links]]
 linkedin = "https://www.linkedin.com/in/mohammedswalah"
+
+[[params.author.links]]
+x-twitter = "https://www.x.com/iam_swalah"
+
+[[params.author.links]]
+youtube = "https://www.youtube.com/@mskxplor"
 
 ["params.author"]
 name = "Mohammed Swalah"
