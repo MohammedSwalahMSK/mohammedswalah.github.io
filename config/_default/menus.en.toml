@@ -2,32 +2,34 @@
 none = "none"
 
 [[main]]
-name = "Projects"
-pre = "lightbulb"
+name = "My Story"
+pageRef = "about"
+identifier = "jTTzb3LlF1"
+weight = 1
+
+[[main]]
+name = "Portfolio"
 pageRef = "projects"
-identifier = "fwkW3Fqkwh"
+identifier = "1U6HPQ2cuQ"
 weight = 3
 
 [[main]]
-name = "Contact Me"
-pre = "email"
-pageRef = "contact"
-identifier = "5sIO4lVtQN"
-weight = 4
-
-[[main]]
 name = "Blog"
-pre = "blogger"
 pageRef = "posts"
-identifier = "mlhLsQUeEk"
+identifier = "n8EjRg1Rsq"
 weight = 2
 
 [[main]]
-name = "Who Am I"
-pre = "star"
-pageRef = "about"
-identifier = "nZRG7aG9BU"
-weight = 1
+name = "Gallery"
+pageRef = "gallery"
+identifier = "FyLDX9O1qW"
+weight = 4
+
+[[main]]
+name = "Get in Touch"
+pageRef = "contact"
+identifier = "d35l3UUuBl"
+weight = 5
 
 [[footer]]
 none = "none"
@@ -35,23 +37,29 @@ none = "none"
 [[footer]]
 name = "About"
 pageRef = "about"
-identifier = "QdzrGiHUJl"
+identifier = "9BRDy63t7i"
 weight = 1
 
 [[footer]]
-name = "Projects"
+name = "Portfolio"
 pageRef = "projects"
-identifier = "VZcgCm7VeV"
-weight = 2
+identifier = "vMiDYn4MCz"
+weight = 3
 
 [[footer]]
 name = "Blog"
 pageRef = "posts"
-identifier = "geMiyM0RtQ"
-weight = 3
+identifier = "YRjZDyyZMv"
+weight = 2
 
 [[footer]]
-name = "Contact Me"
-pageRef = "contact"
-identifier = "cnh5M11GTw"
+name = "Gallery"
+pageRef = "gallery"
+identifier = "ke1fTALYpG"
 weight = 4
+
+[[footer]]
+name = "Get in Touch"
+pageRef = "contact"
+identifier = "OAlm6r4eot"
+weight = 5

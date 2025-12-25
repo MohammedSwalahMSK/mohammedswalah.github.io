@@ -3,7 +3,7 @@ defaultAppearance = "dark"
 autoSwitchAppearance = true
 enableA11y = false
 enableSearch = true
-enableCodeCopy = true
+enableCodeCopy = false
 enableStructuredBreadcrumbs = false
 replyByEmail = false
 disableImageOptimization = false
@@ -24,7 +24,7 @@ advertisement = { }
 highlightCurrentMenuArea = true
 defaultBackgroundImage = "logo.png"
 smartTOC = true
-defaultFeaturedImage = "h1.jpg"
+defaultFeaturedImage = "icon_tr.png"
 smartTOCHideUnfocusedChildren = true
 
 [header]

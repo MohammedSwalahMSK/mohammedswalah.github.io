@@ -3,46 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:50440/</loc>
+    <loc>http://localhost:61767/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:50440/posts/</loc>
+    <loc>http://localhost:61767/posts/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:50440/posts/my-first-post/</loc>
+    <loc>http://localhost:61767/posts/my-first-post/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:50440/posts/testing/</loc>
+    <loc>http://localhost:61767/posts/testing/</loc>
     <lastmod>2024-02-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:50440/about/</loc>
+    <loc>http://localhost:61767/contact/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:50440/contact/</loc>
+    <loc>http://localhost:61767/gallery/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:50440/projects/</loc>
+    <loc>http://localhost:61767/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:50440/projects/wow/</loc>
+    <loc>http://localhost:61767/projects/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:61767/projects/wow/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

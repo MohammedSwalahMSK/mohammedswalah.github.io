@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Get In Touch
 type: page
 ---
 
