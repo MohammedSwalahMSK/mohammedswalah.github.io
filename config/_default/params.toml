@@ -26,6 +26,7 @@ defaultBackgroundImage = "logo.png"
 smartTOC = true
 defaultFeaturedImage = "icon_tr.png"
 smartTOCHideUnfocusedChildren = true
+favicon = "favicon.ico"
 
 [header]
 layout = "fixed"
@@ -125,3 +126,5 @@ mobileFontSize = "base"
 
 [params]
 customCSS = [ "css/custom.css" ]
+
+
